@@ -1,0 +1,1 @@
+Read from input file and make all contents of file uppercase, then write the output to new output file.

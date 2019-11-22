@@ -1,0 +1,1 @@
+Consuming from activemq and writing to console
