@@ -1,0 +1,8 @@
+/home/onur/Projects/java/springboot-rest/src/main/java/com/example/springbootrest/DemoApplication.java
+/home/onur/Projects/java/springboot-rest/src/main/java/com/example/springbootrest/rest/controller/advice/RestControllerAdvice.java
+/home/onur/Projects/java/springboot-rest/src/main/java/com/example/springbootrest/rest/model/Response.java
+/home/onur/Projects/java/springboot-rest/src/main/java/com/example/springbootrest/rest/controller/RootController.java
+/home/onur/Projects/java/springboot-rest/src/main/java/com/example/springbootrest/rest/model/RootResource.java
+/home/onur/Projects/java/springboot-rest/src/main/java/com/example/springbootrest/config/security/SecurityConfig.java
+/home/onur/Projects/java/springboot-rest/src/main/java/com/example/springbootrest/config/Swagger2Config.java
+/home/onur/Projects/java/springboot-rest/src/main/java/com/example/springbootrest/rest/model/RestModel.java

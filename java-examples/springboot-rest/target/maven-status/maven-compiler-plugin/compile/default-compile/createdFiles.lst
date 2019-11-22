@@ -1,0 +1,8 @@
+com/example/springbootrest/DemoApplication.class
+com/example/springbootrest/rest/controller/advice/RestControllerAdvice.class
+com/example/springbootrest/rest/model/RootResource.class
+com/example/springbootrest/rest/controller/RootController.class
+com/example/springbootrest/config/security/SecurityConfig.class
+com/example/springbootrest/rest/model/Response.class
+com/example/springbootrest/config/Swagger2Config.class
+com/example/springbootrest/rest/model/RestModel.class
