@@ -1,0 +1,37 @@
+<Strategies xsi:schemaLocation="http://www.fixprotocol.org/FIXatdl-1-1/Core"
+            xmlns="http://www.fixprotocol.org/FIXatdl-1-1/Core"
+            xmlns:lay="http://www.fixprotocol.org/FIXatdl-1-1/Layout"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            imageLocation="/images/banner.gif"
+            strategyIdentifierTag="847"
+            versionIdentifierTag="9682"
+            tag957Support="true">
+
+    <Strategy name="Tazer" uiRep="Tazer"
+              wireValue="3000" fixMsgType="D">
+
+        <!-- FIX Message -->
+        <Parameter name="EffectiveTime"
+                   xsi:type="UTCTimestamp_t"
+                   fixTag="168"/>
+        <Parameter name="VolTarget"
+                   xsi:type="Percentage_t"
+                   fixTag="7641" minValue="0.01"
+                   maxValue="0.75"/>
+
+        <!-- Screen Layout -->
+        <lay:StrategyLayout>
+            <lay:StrategyPanel collapsible="false" orientation="VERTICAL">
+                <lay:Control xsi:type="lay:Clock_t"
+                             ID="StartTimeClock"
+                             label="Start Time"
+                             parameterRef="EffectiveTime"/>
+                <lay:Control xsi:type="lay:SingleSpinner_t"
+                             ID="VolSpinner"
+                             label="Target (1-75%)"
+                             parameterRef="VolTarget"/>
+            </lay:StrategyPanel>
+        </lay:StrategyLayout>
+
+    </Strategy>
+</Strategies>
